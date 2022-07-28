@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  width: 1280px;
+  height: 100vh;
+}
+h4 {
+  font-size: 12px;
+  font-weight: lighter;
+  font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","ＭＳ Ｐ明朝","MS PMincho",serif;
+
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+h2 {
+  font-size: 20px;
+  font-family: "ヒラギノ明朝 Pro W6","Hiragino Mincho Pro","ＭＳ Ｐ明朝","MS PMincho",serif;
+
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+.image-container {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-bottom: 30px;
+}
+.right-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "ヒラギノ明朝 Pro W6","Hiragino Mincho Pro","ＭＳ Ｐ明朝","MS PMincho",serif;
+}
+.about-text {
+  text-align: center;
+  width: 500px;
+  font-size: 13px;
+  font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","ＭＳ Ｐ明朝","MS PMincho",serif;
+}
+.about-text p {
+  margin-bottom: 10px;
+}
+.link-to-homepage {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","ＭＳ Ｐ明朝","MS PMincho",serif;
+}
+
+@media screen and (max-width:480px) {
+  .container {
+    width: 375px;
+    height: 100vh;
+    background-image: url("./images/background.png");
+    background-size: cover;
+  }
+  h4 {
+    font-size: 8px;
+    font-weight: lighter;
+  
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+  h2 {
+    font-size: 22px;
+  
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .image-container {
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 10px;
+  }
+  img.left-image {
+    width: 330px;
+    height: 150px;
+  }
+  img.right-top-image {
+    width: 160px;
+    height: 120px;
+  }
+  img.right-bottom-image {
+    width: 160px;
+    height: 120px;
+  }
+  .right-images {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .about-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-title {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px auto;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-text p {
+    font-size: 13px;
+    margin: 5px auto;
+  }
+  .link-to-homepage {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+}
