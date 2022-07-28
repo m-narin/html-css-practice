@@ -96,7 +96,7 @@ h2 {
     margin-bottom: 10px;
   }
   .image-container {
-    width: 330px;
+    width: 350px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -105,15 +105,15 @@ h2 {
     gap: 10px;
   }
   img.left-image {
-    width: 330px;
+    width: 350px;
     height: 150px;
   }
   img.right-top-image {
-    width: 160px;
+    width: 170px;
     height: 120px;
   }
   img.right-bottom-image {
-    width: 160px;
+    width: 170px;
     height: 120px;
   }
   .right-images {
